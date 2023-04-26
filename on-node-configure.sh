@@ -55,7 +55,7 @@ echo 'source /opt/GPhL/ALL_snapshot_20230222/setup.sh' >> /home/slurm/.profile
 echo 'export PATH="/opt/xds/XDS-INTEL64_Linux_x86_64:$PATH"' >> /home/slurm/.profile
 echo 'export BDG_TOOL_MOGUL=/opt/csds/CSD_2022/bin/mogul' >> /home/slurm/.profile
 echo "/opt/csds/CSD_2022/bin/ccdc_activator -a -k $MOGUL_ACTIVATION_ID" >> /home/slurm/.profile
-echo "/opt/csds/CSD_2022/bin/ccdc_activator -a -k $MOGUL_ACTIVATION_ID" >> /home/home/.profile
+echo "/opt/csds/CSD_2022/bin/ccdc_activator -a -k $MOGUL_ACTIVATION_ID" >> /home/ubuntu/.profile
 echo "Completed setup of Global Phasing Software!"
 
 # Activate Mogul
